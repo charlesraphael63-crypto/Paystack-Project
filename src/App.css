@@ -61,7 +61,7 @@
 /* Hero css */
 .mainHero {
     width: 100%;
-    height: 110vh;
+    height: 125vh;
     background-color: aliceblue;
     padding-top: 10rem;
     display: flex;
@@ -74,7 +74,7 @@
         .txtHero {
             font-family: Arial, sans-serif;
             color: rgb(26, 26, 56);
-            width: 50%;
+            width: 55%;
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -82,17 +82,17 @@
             align-items: center;
             gap: 25px;
             h1 {
-                font-size: 2.3rem;
-                padding-right: 35px;
+                font-size: 3rem;
+                padding-left: 4.3rem;
             }
             p {
                 font-size: 1rem;
                 font-weight: lighter;
-                margin-right: 3.5rem;
+                margin-right: 5.4rem;
             }
             .btnHero {
                 display: flex;
-                padding-right: 20px;
+                padding-right: 5rem;
                 justify-content: center;
                 width: 100%;
                 gap: 15px;
@@ -123,7 +123,7 @@
                 display: flex;
                 flex-direction: column;
                 margin-right: 2rem;
-                padding-top: 7rem;
+                padding-top: 8.7rem;
                 gap: 30px;
             }
             p {
@@ -171,3 +171,25 @@
 }
 
 /* Body css */
+.simple {
+    width: 100%;
+    height: 50vh;
+    padding-top: 7rem;
+    padding-left: 5rem;
+    color: rgb(26, 26, 56);
+    gap: 20px;
+    line-height: 3rem;
+    h1 {
+        font-size: 3rem;
+        padding-right: 35px;
+    }
+    p {
+        font-size: 1rem;
+        font-weight: lighter;
+        margin-right: 3.5rem;
+    }
+
+}
+.mainPart {
+
+}
