@@ -1,10 +1,12 @@
 import Header from "./Components/Header"
+import Hero from "./Components/Hero"
 import "./App.css"
 const App = () => {
   return (
-    <div>
+    <main className="mainApp">
       <Header />
-    </div>
+      <Hero />
+    </main>
   )
 }
 
