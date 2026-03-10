@@ -1,6 +1,6 @@
 export const navBar = [
     {id: 1, name: "Why Paystack"},
-    {id: 2, name: "Customer"},
+    {id: 2, name: "Customers"},
     {id: 3, name: "Pricing"},
     {id: 1, name: "Learn"},
 ];
