@@ -1,10 +1,14 @@
 import Header from "./Components/Header"
+import Hero from "./Components/Hero"
+import Body from "./Components/Body"
 import "./App.css"
 const App = () => {
   return (
-    <div>
+    <main className="mainApp">
       <Header />
-    </div>
+      <Hero />
+      <Body />
+    </main>
   )
 }
 
