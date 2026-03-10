@@ -8,5 +8,5 @@ export const navBar = [
 export const navBar_2 = [
     {id: 2, name: "Develpoers"},
     {id: 2, name: "Support"},
-    {id: 3, name: "Login"}
+    {id: 3, name: "Login"},
 ]
