@@ -1,5 +1,7 @@
 import React from 'react'
 import EmptyCompo from './EmptyCompo'
+import Images from './Images'
+import { images } from './dataJson'
 
 const Body = () => {
   return (
@@ -11,10 +13,29 @@ const Body = () => {
             </article>
     } />
     <EmptyCompo className="mainPart" name={
-        <section>
+        <section className="menuPart">
+            <aside className="side">
+              {/* <img className="handGif" src="https://assets.paystack.com/assets/img/content/Collect-Payments-for-Multiple-Channels-1.1.gif" /> */}
+              {images.map((img) =>
+                img.id === 1 ? (
+                  <Images
+                    key={img.id}
+                    src={img.src}
+                    alt={`Image ${img.id}`}
+                    className="handGif"
+                  />
+                ) : null
+                )}
+            </aside>
+            <article className="rightsid">
+                    {/* {images.map((img) => (
+        <ImageCard key={img.id} src={img.src} alt={img.alt} />
+      ))} */}
 
+            </article>
         </section>
     } />
+    
     </main>
   )
 }
