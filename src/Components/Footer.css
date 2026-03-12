@@ -1,0 +1,32 @@
+.footerSty{
+display: flex;
+}
+.pay{
+    font-size: 40px;
+    font-weight: bold;
+}
+.pay-2{
+font-size: 27px;
+}
+
+.paySta{
+margin-top: 5rem;
+}
+
+.sidem{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.sideFooter{
+    display: flex;
+    justify-content: space-around;
+  
+    margin-top: 3rem;
+}
+
+.sideSty{
+font-weight: bold;
+}
